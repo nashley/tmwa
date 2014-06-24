@@ -730,7 +730,7 @@ def main():
 
     ## headers
 
-    cstdint = ctx.sysinclude('cstidsdint')
+    cstdint = ctx.sysinclude('cstdint')
 
     endians_h = ctx.include('src/ints/little.hpp')
 
